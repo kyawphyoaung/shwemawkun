@@ -24,7 +24,29 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=vzF9iO"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=vzF9iO" type="text/css">
 
-  
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyB9Uh0WHuBJp4Bp3c5ogIq3yfPP2qolgoM",
+    authDomain: "shwemawkuntest-a102f.firebaseapp.com",
+    projectId: "shwemawkuntest-a102f",
+    storageBucket: "shwemawkuntest-a102f.appspot.com",
+    messagingSenderId: "682135590912",
+    appId: "1:682135590912:web:8f65d148db3fdf186ee0e5",
+    measurementId: "G-NYDF5VW38G"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
   
   
 </head>
